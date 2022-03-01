@@ -1,0 +1,54 @@
+$row-width: 1140px;
+
+.row {
+  width: $row-width;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-1 {
+    width: $row-width / 12;
+  }
+  .col-2 {
+    width: $row-width / 6;
+  }
+  .col-3 {
+    width: $row-width / 4;
+  }
+  .col-4 {
+    width: $row-width / 3;
+  }
+  .col-5 {
+    width: $row-width * 5 / 12;
+  }
+  .col-6 {
+    width: $row-width / 2;
+  }
+  .col-7 {
+    width: $row-width * 7 / 12;
+  }
+  .col-8 {
+    width: $row-width * 2 / 3;
+  }
+  .col-9 {
+    width: $row-width * 3 / 4;
+  }
+  .col-10 {
+    width: $row-width * 5 / 6;
+  }
+  .col-11 {
+    width: $row-width * 11 / 12;
+  }
+  .col-12 {
+    width: $row-width;
+  }
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}

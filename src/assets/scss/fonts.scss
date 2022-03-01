@@ -1,0 +1,47 @@
+$mono: 'Ubuntu Mono', monospace;
+$sans-serif: 'Roboto', sans-serif;
+$condensed: 'Open Sans Condensed', sans-serif;
+
+.font-mono {
+  font-family: $mono;
+}
+
+.font-sans-serif {
+  font-family: $sans-serif;
+}
+
+.font-condensed {
+  font-family: $condensed;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-sm {
+  font-size: 16px;
+}
+
+.text-md {
+  font-size: 20px;
+}
+
+.text-lg {
+  font-size: 25px;
+}
+
+.text-xl {
+  font-size: 30px;
+}
+
+.text-2xl {
+  font-size: 40px;
+}
+
+.text-3xl {
+  font-size: 55px;
+}
