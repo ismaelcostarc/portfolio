@@ -9,6 +9,7 @@ $row-width: 1140px;
   .col {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .col-1 {
@@ -51,4 +52,9 @@ $row-width: 1140px;
 
 .row-reverse {
   flex-direction: row-reverse;
+}
+
+.section {
+  padding: 60px 0;
+  min-height: 450px;
 }

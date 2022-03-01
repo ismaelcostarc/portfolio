@@ -1,5 +1,5 @@
 <template>
-  <section class="whoIAm">
+  <section class="whoIAm" id="quem-sou">
     <div class="row">
       <aside class="col col-3">
         <img src="@/assets/img/picture.png" alt="Ismael Costa" />
@@ -103,7 +103,7 @@ img {
 }
 
 .whoIAm {
-  margin-top: 80px;
+  padding: 120px 0;
 
   section {
     width: 100%;

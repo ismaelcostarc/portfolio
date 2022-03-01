@@ -140,4 +140,9 @@ table {
 html {
   color: $secondary;
 }
+
+a {
+  color: initial;
+  text-decoration: none;
+}
 </style>

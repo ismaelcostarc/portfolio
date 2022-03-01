@@ -1,14 +1,14 @@
 <template>
-  <div class="skills__wrapper">
-    <section class="skills row">
-      <section class="skills__list">
+  <div class="skills" id="skills">
+    <section class="row section">
+      <section class="col col-6">
         <ul>
           <li>Javascript</li>
           <li>HTML</li>
           <li>CSS</li>
         </ul>
       </section>
-      <aside class="skills__title font-mono text-3xl">
+      <aside class="font-mono text-3xl col col-6 align-right">
         <h2>skills</h2>
       </aside>
     </section>
@@ -18,23 +18,8 @@
 <style lang="scss" scoped>
 @import '@/assets/scss/index.scss';
 
-.skills__wrapper {
+.skills {
   background-color: $primary;
-
-  .skills {
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    padding: 60px;
-
-    .skills__list {
-      width: 50%;
-    }
-
-    .skills__title {
-      width: 50%;
-      text-align: right;
-    }
-  }
+  color: #fff;
 }
 </style>
