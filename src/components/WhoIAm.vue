@@ -1,10 +1,10 @@
 <template>
-  <section class="whoIAm" id="quem-sou">
+  <section class="whoIAm container" id="quem-sou">
     <div class="row">
-      <aside class="col col-3">
+      <aside class="col col-3 col-sm-12">
         <img src="@/assets/img/picture.png" alt="Ismael Costa" />
       </aside>
-      <section class="col col-9">
+      <section class="col col-9 ">
         <div>
           <p class="specialization font-condensed text-md">desenvolvedor front-end</p>
 
@@ -96,8 +96,13 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/scss/index.scss';
 
+@media only screen and (max-width: 768px) {
+  .col-md-12 {
+    width: 50px;
+  }
+}
+
 img {
-  width: 100%;
   border: 10px solid #000;
   border-style: double;
 }

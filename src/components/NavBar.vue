@@ -1,21 +1,26 @@
 <template>
-  <div class="navbar__wrapper">
-    <nav class="row navbar">
-      <div class="col col-2">
-        <img src="@/assets/img/logo.png" alt="Ismael Costa" />
-      </div>
-      <div class="col col-10">
-        <ul class="text-bold font-sans-serif navbar__menu">
-          <li class="menu__item" id="link--quem-sou"><a href="#quem-sou">quem sou</a></li>
-          <li class="menu__item" id="link--skills"><a href="#skills">skills</a></li>
-          <li class="menu__item" id="link--experiencia"><a href="#experiencia">experiência</a></li>
-          <li class="menu__item" id="link--formacao-academica">
-            <a href="#formacao-academica">formação acadêmica</a>
-          </li>
-          <li class="menu__item menu__button">download CV <i class="fas fa-download"></i></li>
-        </ul>
-      </div>
-    </nav>
+  <div class="navbar__wrapper container">
+    <div class="container">
+      <nav class="row navbar">
+        <div class="col col-2">
+          <!-- <img src="@/assets/img/logo.png" alt="Ismael Costa" /> -->
+          <div class="font-mono text-md logo"><span>i</span>smael costa</div>
+        </div>
+        <div class="col col-10">
+          <ul class="text-bold font-sans-serif navbar__menu">
+            <li class="menu__item" id="link--quem-sou"><a href="#quem-sou">quem sou</a></li>
+            <li class="menu__item" id="link--skills"><a href="#skills">skills</a></li>
+            <li class="menu__item" id="link--experiencia">
+              <a href="#experiencia">experiência</a>
+            </li>
+            <li class="menu__item" id="link--formacao-academica">
+              <a href="#formacao-academica">formação acadêmica</a>
+            </li>
+            <li class="menu__item menu__button">download CV <i class="fas fa-download"></i></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </div>
 </template>
 <script>
@@ -25,6 +30,19 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import '@/assets/scss/index.scss';
+
+.logo {
+  letter-spacing: 5px;
+  span {
+    background-color: $secondary;
+    color: #fff;
+    border-radius: 100%;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    text-align: center;
+  }
+}
 
 .navbar__wrapper {
   width: 100%;

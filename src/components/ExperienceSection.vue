@@ -1,5 +1,5 @@
 <template>
-  <div class="skills" id="experiencia">
+  <div class="skills container" id="experiencia">
     <section class="row section row-reverse">
       <section class="col col-6">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et leo ac elit luctus
